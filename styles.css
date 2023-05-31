@@ -309,7 +309,7 @@ header .dropdown-toggle::after {
 /* core services styles start  */
 
 .core-service-box {
-    padding: 40px 40px 30px 20px;
+    padding: 40px 40px 30px 30px;
     position: relative;
 }
 
@@ -335,6 +335,9 @@ header .dropdown-toggle::after {
 
 
 /* customer styles start */
+.logo-container {
+    gap: 30px;
+}
 .customer .customer-logos {
     display: flex;
     column-gap: 30px;
@@ -573,7 +576,35 @@ header .dropdown-toggle::after {
 
 
 /* footer style End  */
+@media screen and (max-width: 1024px) {
+    .banner-heading {
+            font-size: 44px;
+            line-height: 54px;
+        }
 
+        .section-heading-dark {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .section-heading-light {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+
+
+                .core-services,
+                .customer,
+                .how-works,
+                .client-says,
+                .short-about,
+                .empower,
+                .blog {
+                    margin: 80px 0px;
+                }
+
+}
 
 
 
@@ -599,6 +630,39 @@ header .dropdown-toggle::after {
         height: 20px;
         width: 20px;
     }
+
+
+
+
+
+
+
+        .banner-heading {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .section-heading-dark {
+            font-size: 36px;
+            line-height: 46px;
+        }
+
+        .section-heading-light {
+            font-size: 36px;
+            line-height: 46px;
+        }
+
+
+
+        .core-services,
+        .customer,
+        .how-works,
+        .client-says,
+        .short-about,
+        .empower,
+        .blog {
+            margin: 60px 0px;
+        }
 }
 
 
@@ -622,6 +686,130 @@ header .dropdown-toggle::after {
     .navbar-toggler-icon {
         height: 20px;
         width: 20px;
+    }
+
+
+.banner-heading {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.section-heading-dark {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.section-heading-light {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+
+
+.core-services,
+.customer,
+.how-works,
+.client-says,
+.short-about,
+.empower,
+.blog {
+    margin: 50px 0px;
+}
+
+
+
+.home-Banner {
+        padding: 180px 24px;
+}
+
+.core-service-box{
+    padding: 30px 30px 20px 20px;
+    margin-bottom: 40px;
+}
+.core-service-box:before {
+    padding: 20px 20px 10px 20px;
+}
+
+
+
+
+.logo-container{
+    gap: 15px;
+}
+.customer .customer-logos {
+    column-gap: 15px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.customer .customer-logos .logo-item {
+    width: 47%;
+    padding: 20px 0px;
+    flex-wrap: wrap-reverse;
+}
+.customer .customer-logos .logo-item.last{
+    width: 100%;
+}
+
+
+.client-says {
+    background-color: var(--button-bg);
+    padding: 50px 24px 00px 24px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+
+
+
+.short-about .short-img img {
+    width: 100%;
+}
+
+
+.empower {
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer{
+        padding: 20px 0px;
     }
 }
 
