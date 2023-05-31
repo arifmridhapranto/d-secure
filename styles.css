@@ -38,6 +38,7 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    list-style-type: none;
 }
 
 h1,
@@ -153,6 +154,28 @@ p {
 }
 
 
+.lang-btn {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--heading-color);
+    background-color: transparent;
+    border: 1px solid var(--heading-color);
+    padding: 12px 12px;
+    border-radius: 8px;
+    transition: 0.3s linear;
+}
+
+.lang-btn:active,
+.lang-btn:focus-visible,
+.btn.show,
+.btn:hover {
+    color: var(--heading-color) !important;
+    background-color: transparent !important;
+    border: 1px solid var(--heading-color) !important;
+}
+
+
 
 .core-services,
 .customer,
@@ -220,7 +243,7 @@ header .dropdown-toggle::after {
     width: 25px;
     height: 3px;
     margin: 6px 0;
-    background-color: #ff6200;
+    background-color: #fff;
     transition: 0.4s;
 }
 
@@ -228,7 +251,7 @@ header .dropdown-toggle::after {
     width: 20px;
     height: 3px;
     margin: 6px 0 6px auto;
-    background-color: #ff6200;
+    background-color: #fff;
     transition: 0.4s;
     text-align: right;
 }
@@ -259,22 +282,37 @@ header .dropdown-toggle::after {
 .mobile-menu {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 85px;
     left: 0;
     height: auto;
     width: 100%;
-    background-color: #fff;
+    background-color: #F6F2FF;
     transition: all 0.5s ease-in-out;
 }
 
 .mobile-menu li {
     text-align: left;
     margin: 10px 0px;
+    color: #000;
+}
+.mobile-menu li a{
+    color: #000;
+}
+.mobile-menu li a:hover{
+    color: #6826FF !important;
+}
+.mobile-menu .active {
+    color: #6826FF!important;
+}
+.mobile-menu .button-fill:hover{
+    color: #6826FF;
 }
 
 /* header style End  */
 
-
+.mobile-menu-section{
+display: none;
+}
 
 
 
@@ -338,6 +376,7 @@ header .dropdown-toggle::after {
 .logo-container {
     gap: 30px;
 }
+
 .customer .customer-logos {
     display: flex;
     column-gap: 30px;
@@ -578,38 +617,59 @@ header .dropdown-toggle::after {
 /* footer style End  */
 @media screen and (max-width: 1024px) {
     .banner-heading {
-            font-size: 44px;
-            line-height: 54px;
-        }
+        font-size: 44px;
+        line-height: 54px;
+    }
 
-        .section-heading-dark {
-            font-size: 40px;
-            line-height: 50px;
-        }
+    .section-heading-dark {
+        font-size: 40px;
+        line-height: 50px;
+    }
 
-        .section-heading-light {
-            font-size: 40px;
-            line-height: 50px;
-        }
+    .section-heading-light {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .section-pera {
+        font-size: 18px;
+        line-height: 28px;
+    }
 
 
 
-                .core-services,
-                .customer,
-                .how-works,
-                .client-says,
-                .short-about,
-                .empower,
-                .blog {
-                    margin: 80px 0px;
-                }
+    .core-services,
+    .customer,
+    .how-works,
+    .client-says,
+    .short-about,
+    .empower,
+    .blog {
+        margin: 80px 0px;
+    }
+
+
+
+
+
+    .client-says {
+        background-color: var(--button-bg);
+        padding: 60px 24px 40px 24px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
+    }
 
 }
 
 
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
+    .lang-btn {
+            padding: 7px;
+        }
+    .mobile-menu-section {
+            display: block;
+        }
     header {
         padding: 20px 30px;
     }
@@ -631,38 +691,46 @@ header .dropdown-toggle::after {
         width: 20px;
     }
 
+    .banner-heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .section-heading-dark {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .section-heading-light {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .section-pera {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .core-services,
+    .customer,
+    .how-works,
+    .client-says,
+    .short-about,
+    .empower,
+    .blog {
+        margin: 60px 0px;
+    }
 
 
 
 
 
-
-        .banner-heading {
-            font-size: 40px;
-            line-height: 50px;
-        }
-
-        .section-heading-dark {
-            font-size: 36px;
-            line-height: 46px;
-        }
-
-        .section-heading-light {
-            font-size: 36px;
-            line-height: 46px;
-        }
-
-
-
-        .core-services,
-        .customer,
-        .how-works,
-        .client-says,
-        .short-about,
-        .empower,
-        .blog {
-            margin: 60px 0px;
-        }
+    .client-says {
+        background-color: var(--button-bg);
+        padding: 60px 24px 30px 24px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    }
 }
 
 
@@ -670,6 +738,9 @@ header .dropdown-toggle::after {
     header {
         padding: 20px 30px;
     }
+    .lang-btn {
+        padding: 5px;
+    }
 
     header nav {
         display: none;
@@ -689,91 +760,92 @@ header .dropdown-toggle::after {
     }
 
 
-.banner-heading {
-    font-size: 32px;
-    line-height: 42px;
-}
+    .banner-heading {
+        font-size: 32px;
+        line-height: 42px;
+    }
 
-.section-heading-dark {
-    font-size: 28px;
-    line-height: 38px;
-}
+    .section-heading-dark {
+        font-size: 28px;
+        line-height: 38px;
+    }
 
-.section-heading-light {
-    font-size: 28px;
-    line-height: 38px;
-}
+    .section-heading-light {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .section-pera {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .core-services,
+    .customer,
+    .how-works,
+    .client-says,
+    .short-about,
+    .empower,
+    .blog {
+        margin: 50px 0px;
+    }
 
 
 
-.core-services,
-.customer,
-.how-works,
-.client-says,
-.short-about,
-.empower,
-.blog {
-    margin: 50px 0px;
-}
-
-
-
-.home-Banner {
+    .home-Banner {
         padding: 180px 24px;
-}
+    }
 
-.core-service-box{
-    padding: 30px 30px 20px 20px;
-    margin-bottom: 40px;
-}
-.core-service-box:before {
-    padding: 20px 20px 10px 20px;
-}
+    .core-service-box {
+        padding: 30px 30px 20px 20px;
+        margin-bottom: 40px;
+    }
 
-
-
-
-.logo-container{
-    gap: 15px;
-}
-.customer .customer-logos {
-    column-gap: 15px;
-    row-gap: 15px;
-    flex-wrap: wrap;
-}
-
-.customer .customer-logos .logo-item {
-    width: 47%;
-    padding: 20px 0px;
-    flex-wrap: wrap-reverse;
-}
-.customer .customer-logos .logo-item.last{
-    width: 100%;
-}
-
-
-.client-says {
-    background-color: var(--button-bg);
-    padding: 50px 24px 00px 24px;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-}
+    .core-service-box:before {
+        padding: 20px 20px 10px 20px;
+    }
 
 
 
 
-.short-about .short-img img {
-    width: 100%;
-}
+    .logo-container {
+        gap: 15px;
+    }
+
+    .customer .customer-logos {
+        column-gap: 15px;
+        row-gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .customer .customer-logos .logo-item {
+        width: 47%;
+        padding: 20px 0px;
+        flex-wrap: wrap-reverse;
+    }
+
+    .customer .customer-logos .logo-item.last {
+        width: 100%;
+    }
 
 
-.empower {
-    padding: 0px 0px 0px 0px;
-}
+    .client-says {
+        background-color: var(--button-bg);
+        padding: 50px 24px 00px 24px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    }
 
 
 
 
+    .short-about .short-img img {
+        width: 100%;
+    }
 
+
+    .empower {
+        padding: 0px 0px 0px 0px;
+    }
 
 
 
@@ -808,7 +880,12 @@ header .dropdown-toggle::after {
 
 
 
-    .footer{
+
+
+
+
+
+    .footer {
         padding: 20px 0px;
     }
 }
