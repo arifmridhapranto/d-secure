@@ -183,7 +183,8 @@ p {
 .client-says,
 .short-about,
 .empower,
-.blog {
+.blog,
+.core-values {
     margin: 120px 0px;
 }
 
@@ -295,23 +296,27 @@ header .dropdown-toggle::after {
     margin: 10px 0px;
     color: #000;
 }
-.mobile-menu li a{
+
+.mobile-menu li a {
     color: #000;
 }
-.mobile-menu li a:hover{
+
+.mobile-menu li a:hover {
     color: #6826FF !important;
 }
+
 .mobile-menu .active {
-    color: #6826FF!important;
+    color: #6826FF !important;
 }
-.mobile-menu .button-fill:hover{
+
+.mobile-menu .button-fill:hover {
     color: #6826FF;
 }
 
 /* header style End  */
 
-.mobile-menu-section{
-display: none;
+.mobile-menu-section {
+    display: none;
 }
 
 
@@ -644,7 +649,8 @@ display: none;
     .client-says,
     .short-about,
     .empower,
-    .blog {
+    .blog,
+    .core-values {
         margin: 80px 0px;
     }
 
@@ -665,11 +671,13 @@ display: none;
 
 @media screen and (max-width: 991px) {
     .lang-btn {
-            padding: 7px;
-        }
+        padding: 7px;
+    }
+
     .mobile-menu-section {
-            display: block;
-        }
+        display: block;
+    }
+
     header {
         padding: 20px 30px;
     }
@@ -718,7 +726,8 @@ display: none;
     .client-says,
     .short-about,
     .empower,
-    .blog {
+    .blog,
+    .core-values {
         margin: 60px 0px;
     }
 
@@ -738,6 +747,7 @@ display: none;
     header {
         padding: 20px 30px;
     }
+
     .lang-btn {
         padding: 5px;
     }
@@ -786,7 +796,8 @@ display: none;
     .client-says,
     .short-about,
     .empower,
-    .blog {
+    .blog,
+    .core-values {
         margin: 50px 0px;
     }
 
@@ -835,55 +846,13 @@ display: none;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
     }
 
-
-
-
     .short-about .short-img img {
         width: 100%;
     }
 
-
     .empower {
         padding: 0px 0px 0px 0px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .footer {
         padding: 20px 0px;
@@ -892,3 +861,25 @@ display: none;
 
 
 /* Home page Css End */
+
+
+
+
+/* about page css Start  */
+.core-values {
+    background-color: #F6F2FF;
+    padding: 120px 0px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+
+
+.core-values .row .box img {
+    margin-bottom: 20px;
+}
+
+.core-values .row .box h4 {
+    margin-bottom: 10px;
+}
+
+/* about page css End  */
