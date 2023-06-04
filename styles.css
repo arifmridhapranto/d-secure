@@ -1010,11 +1010,37 @@ header .dropdown-toggle::after {
     margin-bottom: 20px;
     border-radius: 6px;
 }
+.timeline-right{
+    position: relative;
+}
+.timeline-right:before {
+content:'';
+position: absolute;
+left: -40px;
+top: 2px;
+height:  10px;
+width: 32px;
+background: linear-gradient(90deg, #6826FF 7.29%, rgba(217, 217, 217, 0) 100%);
+}
+.timeline-left {
+    position: relative;
+}
+
+.timeline-left:before {
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 2px;
+    height: 10px;
+    width: 32px;
+background: linear-gradient(90deg, #6826FF 7.29%, rgba(217, 217, 217, 0) 100%);
+transform: rotate(-180deg);
+}
 
 .timeline-content h3 {
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 16px;
     text-transform: capitalize;
     color: #6826FF;
 }
