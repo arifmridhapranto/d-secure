@@ -184,7 +184,9 @@ p {
 .short-about,
 .empower,
 .blog,
-.core-values {
+.core-values,
+.team,
+.certificate {
     margin: 120px 0px;
 }
 
@@ -650,7 +652,9 @@ header .dropdown-toggle::after {
     .short-about,
     .empower,
     .blog,
-    .core-values {
+    .core-values,
+    .team,
+    .certificate {
         margin: 80px 0px;
     }
 
@@ -727,7 +731,9 @@ header .dropdown-toggle::after {
     .short-about,
     .empower,
     .blog,
-    .core-values {
+    .core-values,
+    .team,
+    .certificate {
         margin: 60px 0px;
     }
 
@@ -797,7 +803,9 @@ header .dropdown-toggle::after {
     .short-about,
     .empower,
     .blog,
-    .core-values {
+    .core-values,
+    .team,
+    .certificate {
         margin: 50px 0px;
     }
 
@@ -872,8 +880,6 @@ header .dropdown-toggle::after {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
 }
 
-
-
 .core-values .row .box img {
     margin-bottom: 20px;
 }
@@ -881,5 +887,301 @@ header .dropdown-toggle::after {
 .core-values .row .box h4 {
     margin-bottom: 10px;
 }
+
+
+.team .team-container {
+    gap: 80px;
+    padding: 50px 75px;
+}
+
+.team .team-container .single-member .img img {
+    border-radius: 135px 135px 135px 32px;
+}
+
+.team .team-container .single-member .img {
+    position: relative;
+}
+
+.team .team-container .single-member {
+    cursor: pointer;
+    width: 28%;
+    flex-wrap: wrap;
+}
+
+.team .team-container .single-member .img::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.48);
+    z-index: 1;
+    border-radius: 135px 135px 135px 32px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.team .team-container .single-member .img:hover::before {
+    opacity: 1;
+}
+
+.team .team-container .single-member .img .arrow img {
+
+    height: 18px;
+    width: 18px;
+}
+
+.team .team-container .single-member .img .arrow {
+    position: absolute;
+    content: '';
+    left: 6px;
+    bottom: 6px;
+    background-color: #6826FF;
+    padding: 14px;
+    border-radius: 50%;
+    z-index: 3;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.team .team-container .single-member .img:hover .arrow {
+    opacity: 1;
+}
+
+.team .team-container .single-member .member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #171718;
+}
+
+.team .team-container .single-member .member-designation {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #888888;
+}
+
+.team .team-container .single-member .member-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #585858;
+}
+
+
+
+
+/* Timeline history Start  */
+
+.design-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+    padding: 100px 0;
+}
+
+.design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-content {
+    padding: 20px;
+    background: #1f1f1f;
+    -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+    box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+    border-radius: 5px;
+    color: white;
+    padding: 1.75rem;
+    transition: 0.4s ease;
+    overflow-wrap: break-word !important;
+    margin: 1rem;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.timeline-component {
+    margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .timeline {
+        display: grid;
+        grid-template-columns: 1fr 3px 1fr;
+    }
+
+    .timeline-middle {
+        position: relative;
+        background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+        width: 3px;
+        height: 100%;
+    }
+
+    .main-middle {
+        opacity: 0;
+    }
+
+    .timeline-circle {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+
+
+/* Timeline history End  */
+
+
+
+
+
+
+
+
+
+
+
+.certificate {
+    background-color: var(--button-bg);
+    padding: 100px 0px 80px 0px;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+
+.certificate::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url("./Assets/Images/certificate-overlay.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 100%;
+    z-index: -1;
+}
+
+.certificate .certificate-box {
+    width: 67%;
+    margin: auto;
+    gap: 40px;
+}
+
+.certificate .certificate-box .img img {
+    width: 250px;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .team .team-container {
+        gap: 80px;
+        padding: 40px 40px;
+    }
+
+    .team .team-container .single-member {
+        width: 27%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .team .team-container {
+        gap: 40px;
+        padding: 0px 0px;
+    }
+
+    .team .team-container .single-member {
+        width: 29%;
+    }
+
+    .team .team-container .single-member .member-name {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .team .team-container .single-member .member-designation {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .team .team-container .single-member .member-desc {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #585858;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .core-values {
+        padding: 50px 24px;
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+    }
+
+    .team .team-container {
+        gap: 30px;
+        padding: 0px 0px;
+    }
+
+    .team .team-container .single-member {
+        width: 45%;
+    }
+
+    .team .team-container .single-member .member-name {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .team .team-container .single-member .member-designation {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .team .team-container .single-member .member-desc {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .certificate {
+        padding: 80px 0px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+    }
+
+    .certificate::before {
+        background-size: cover;
+    }
+
+    .certificate .certificate-box {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .certificate .certificate-box .img img {
+        width: 120px;
+    }
+}
+
 
 /* about page css End  */
