@@ -188,7 +188,7 @@ p {
 .team,
 .certificate,
 .pentest,
-.type-pentest, .perform {
+.type-pentest, .perform,.quote-text {
     margin: 120px 0px;
 }
 
@@ -658,7 +658,7 @@ header .dropdown-toggle::after {
     .team,
     .certificate,
     .type-pentest,
-    .pentest ,.perform {
+    .pentest ,.perform,.Past-Work,.quote-text {
         margin: 80px 0px;
     }
 
@@ -739,7 +739,7 @@ header .dropdown-toggle::after {
     .team,
     .certificate,
     .pentest,
-    .type-pentest, .perform {
+    .type-pentest, .perform,.Past-Work,.quote-text {
         margin: 60px 0px;
     }
 
@@ -813,7 +813,7 @@ header .dropdown-toggle::after {
     .team,
     .certificate,
     .pentest,
-    .type-pentest, .perform {
+    .type-pentest, .perform,.Past-Work,.quote-text {
         margin: 50px 0px;
     }
 
@@ -1188,10 +1188,6 @@ header .dropdown-toggle::after {
 }
 
 @media screen and (max-width: 767px) {
-    .core-values {
-        padding: 50px 24px;
-        clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
-    }
 
     .team .team-container {
         gap: 30px;
@@ -1327,6 +1323,27 @@ font-weight: 500;
     text-decoration-line: underline;
     color: #1EAEFF;
 }
+.result .pera ul li{
+    margin-bottom: 10px;
+}
+.Past-Work {
+    background-color: rgba(104, 38, 255, 0.06);
+    padding: 120px 0px;
+}
+
+.Past-Work .row .box img {
+    margin-bottom: 20px;
+}
+
+.Past-Work .row .box h4 {
+    margin-bottom: 10px;
+}
+.quote-text .row{
+background: linear-gradient(270deg, rgba(157, 115, 254, 0.06) 0%, rgba(104, 38, 255, 0.06) 100%);
+    border-radius: 16px;
+    padding: 60px 0px;
+}
+
 
 
 
@@ -1370,4 +1387,7 @@ font-weight: 500;
         padding: 50px 30px;
         margin: 0px 24px;
     }
+        .Past-Work {
+            padding: 50px 24px;
+        }
 }
