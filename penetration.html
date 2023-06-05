@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSecured - Cyber Security Solutions.</title>
+
+
+    <!-- Bootstrap Css CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- Custom Css File Link   -->
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- header section Start  -->
+    <header class="py-lg-4 p-4">
+        <div class="container-lg container-fluid d-flex justify-content-between align-items-center">
+            <div class="brand"><a href="./index.html" class="navbar-brand"><img src="./Assets/Images/main-logo.svg"
+                        alt="logo" class="d-inline-block "></a></div>
+            <nav>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Solutions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Customers</a></li>
+                </ul>
+            </nav>
+            <div class="d-flex gap-3 ">
+                <li class="nav-item dropdown d-none d-lg-block" style="list-style: none;">
+                    <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-light">
+                        <li><a class="dropdown-item" href="#">BN</a></li>
+                        <li><a class="dropdown-item" href="#">CN</a></li>
+                    </ul>
+                </li>
+                <a class="d-none d-lg-block" href="#"><button type="button" class=" btn button-fill">Contact
+                        Us</button></a>
+            </div>
+            <div class="mobile-menu-section">
+
+                <div class="d-flex align-items-center" style="gap: 30px;display: none;">
+                    <div class="button d-block d-lg-none">
+                        <li class="nav-item dropdown" style="list-style: none;">
+                            <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-light">
+                                <li><a class="dropdown-item" href="#">BN</a></li>
+                                <li><a class="dropdown-item" href="#">CN</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="menu">
+                        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                            <ul class="mobile-menu">
+                                <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./services.html">Resources</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./services.html">Solutions</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./contact.html">Customers</a></li>
+                                <li class="nav-item w-100"><a class="nav-link" href="#"><button
+                                            class="button-fill w-100">Contact
+                                            us</button></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section End  -->
+
+    <main>
+        <!-- banner section Start   -->
+        <section class="other-banners">
+            <div class="container">
+                <div class="row px-4 px-md-0">
+                    <div class="col-md-6 col-12 d-flex flex-column justify-content-center p-0">
+                        <h1 class="section-heading-light mb-3">Lorem ipsum Doler Semeo</h1>
+                        <p class="section-pera">GmbH provided excellent services for our company. They were very
+                            thorough and professional.</p>
+                    </div>
+                    <div class="col-md-4 offset-md-2 col-12 mt-5 mt-md-0 p-0">
+                        <img src="./Assets/Images/penetration-banner-img.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner section End   -->
+
+
+        <!-- what is pentest section start here  -->
+        <section class="pentest">
+            <div class="container">
+                <div class="row px-4 px-md-0">
+                    <div class="col-md-6 col-lg-5  col-12 p-0 p-md-2">
+                        <h2 class="section-heading-dark pb-3">What Is Pentest?</h2>
+                        <p class="pera w-sm-100 w-md-75" style="color: #585858">A "pentest," short for "penetration
+                            testing," is a type
+                            of security testing that aims to identify vulnerabilities in a computer system, network, or
+                            application by simulating an attack by a malicious actor.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-6 offset-lg-1 col-12 p-0 p-md-2 mt-4 mt-md-0">
+                        <p class="section-pera" style="color: #585858">
+                            During a pentest, a skilled security professional (called a "penetration tester" or "ethical
+                            hacker") will use various
+                            techniques and tools to attempt to exploit weaknesses in the system or application, in order
+                            to gain unauthorized
+                            access, steal data, or otherwise compromise the security of the system. The tester may also
+                            try to escalate their
+                            privileges or move laterally within the network to gain access to additional systems.<br>
+                            The goal of a pentest is to identify security vulnerabilities before they can be exploited
+                            by real attackers, and to
+                            provide recommendations for how to improve the security of the system. Pentesting can help
+                            organizations identify
+                            weaknesses in their security posture, and prioritize resources to address the most critical
+                            issues first.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- what is pentest section end here  -->
+
+
+        <!-- type of pentest section start here  -->
+
+        <section class="type-pentest">
+            <div class="container">
+                <h2 class="section-heading-dark"></h2>
+                <p class="pera"></p>
+                <div class="row w-100 text-dark px-4 px-md-0">
+                    <div class="col-lg-3 col-12 mb-5 mb-lg-0 p-0 p-md-2">
+                        <!-- Tab navs -->
+                        <div class="nav flex-column nav-tabs text-left" id="v-tabs-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <a class="nav-link active" id="v-tabs-Blackbox-tab" data-mdb-toggle="tab"
+                                href="#v-tabs-Blackbox" role="tab" aria-controls="v-tabs-Blackbox"
+                                aria-selected="true">Blackbox pentest</a>
+                            <a class="nav-link" id="v-tabs-Greybox-tab" data-mdb-toggle="tab" href="#v-tabs-Greybox"
+                                role="tab" aria-controls="v-tabs-Greybox" aria-selected="false">Greybox pentest</a>
+                            <a class="nav-link" id="v-tabs-Whitebox-tab" data-mdb-toggle="tab" href="#v-tabs-Whitebox"
+                                role="tab" aria-controls="v-tabs-Whitebox" aria-selected="false">Whitebox pentest</a>
+                        </div>
+                        <!-- Tab navs -->
+                    </div>
+
+                    <div class="col-lg-9 col-12 p-0 p-md-2">
+                        <!-- Tab content -->
+                        <div class="tab-content" id="v-tabs-tabContent">
+                            <div class="tab-pane fade show active" id="v-tabs-Blackbox" role="tabpanel"
+                                aria-labelledby="v-tabs-Blackbox-tab">
+                                <h2 class="section-heading-dark pb-3">Blackbox pentest</h2>
+                                <p>In a black-box engagement, the tester is not granted any access to the applications
+                                    or networks. The tester must perform
+                                    reconnaissance to obtain the sensitive knowledge needed to proceed.
+                                    This type of testing is the most realistic simulation of a cyberattack. However, it
+                                    also requires a great deal of time
+                                    and has the greatest potential to overlook a vulnerability that exists within the
+                                    internal part of a network or
+                                    application. A real-life attacker generally does not have any time constraints and
+                                    can take months to develop an attack
+                                    plan waiting for the right opportunity.
+                                    In addition, many defensive tools exist within networks to help prevent an existing
+                                    vulnerability from being exploited.
+                                    Some web browsers now have settings to circumvent an attack even if a weakness still
+                                    exists. All that may be required to
+                                    exploit that vulnerability is a variation of settings or a connection from a
+                                    different browser version.
+                                    Just because a configuration prevents the vulnerability from being found or
+                                    exploited does not necessarily mean the
+                                    vulnerability does not exist or is actually being mitigated. It only means that some
+                                    outside force is buffering the
+                                    result. This can result in a false sense of security that may be exploited at a
+                                    later time by someone who has more time
+                                    to explore this attack surface more greatly.</p>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-tabs-Greybox" role="tabpanel"
+                                aria-labelledby="v-tabs-Greybox-tab">
+                                <h2 class="section-heading-dark pb-3">Greybox pentest</h2>
+                                <p>With grey-box testing, the tester is granted some internal access and knowledge that
+                                    may come in the form of lower-level
+                                    credentials, application logic flow charts, or network infrastructure maps. This can
+                                    simulate an attacker that has
+                                    already penetrated the perimeter and has limited internal access to the network.
+                                    Starting with some background information and low-level credentials helps to a more
+                                    efficient and streamlined approach.
+                                    This saves time on the reconnaissance phase, allowing the consultants to focus their
+                                    efforts on exploiting potential
+                                    vulnerabilities in higher-risk systems rather than attempting to discover where
+                                    these systems may be found.
+                                    In addition, some types of vulnerabilities can only be discovered by looking at the
+                                    source code or configuration
+                                    settings. A tester with no prior knowledge would likely never stumble across these
+                                    less common issues.</p>
+                            </div>
+                            <div class="tab-pane fade" id="v-tabs-Whitebox" role="tabpanel"
+                                aria-labelledby="v-tabs-Whitebox-tab">
+                                <h2 class="section-heading-dark pb-3">Whitebox pentest</h2>
+                                <p>White-box testing allows the tester to have complete open access to all applications
+                                    and systems. The tester is granted
+                                    high-level privileges access to the network and can view source code.
+                                    White-box testing aims to identify potential weaknesses in various areas such as
+                                    logical vulnerabilities, potential
+                                    security exposures, security misconfigurations, poorly written development code, and
+                                    lack-of-defensive measures. This
+                                    type of assessment is more comprehensive, as both internal and external
+                                    vulnerabilities are evaluated from a 'behind the
+                                    scenes' point of view that is unavailable to typical attackers.
+                                    Once again, because so much time is required to review all aspects of the system
+                                    thoroughly, white-box testing is
+                                    generally reserved for high-risk systems or those that process sensitive data.</p>
+                            </div>
+                        </div>
+                        <!-- Tab content -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- type of pentest section end here  -->
+
+        <!-- Summery box section start  -->
+        <section class="summery-box">
+            <div class="container">
+                <div class="row p-4 p-md-0">
+                    <h2 class="section-heading-dark mb-5 w-75">A Summary of Black-Box vs Grey-Box vs White-Box</h2>
+                    <div class="img">
+                        <img src="./Assets/Images/table-box.png" alt="" class="img-fluid w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Summery box section end -->
+
+        <!-- we perform section start  -->
+        <section class="perform">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-12 mb-4 mb-md-0">
+                        <h2 class="section-heading-light">How we perform them</h2>
+                    </div>
+                    <div class="col-md-6 offset-md-1 col-12 ">
+                        <div class="guidelines mb-4">
+                            <h3 class="h3">Federal Office for Information Security</h3>
+                            <a href="" class="guide">Guidelines</a>
+                        </div>
+                        <div class="guidelines">
+                            <h3 class="h3">OWASP web security testing</h3>
+                            <a href="" class="guide">Guidelines</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- we perform section end -->
+
+
+
+                <!-- result  section start  -->
+                <section class="result">
+                    <div class="container">
+                        <div class="row p-4 p-md-0">
+                            <h2 class="section-heading-dark mb-5 w-75">A Summary of Black-Box vs Grey-Box vs White-Box</h2>
+                            <div class="row">
+                                <div class="col-md-6 col-12"></div>
+                                <div class="col-md-6 col-12"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- result section end -->
+    </main>
+
+    <footer class="footer">
+        <div class="container p-4 p-xl-0">
+            <div class="row">
+                <div class="offset-xl-1 col-xl-2 col-md-3 offset-xl-1">
+                    <a href=""><img src="./Assets/Images/footer-logo.svg" alt="" class="img-fluid"></a>
+                </div>
+                <div
+                    class=" offset-md-1 offset-xl-1 col-xl-7 col-md-8 d-flex justify-content-between flex-column flex-md-row">
+                    <div class="col-xl-3 col-md-4 mt-4 mt-md-0">
+                        <h4 class="footer-heading">Company</h4>
+                        <ul>
+                            <li><a href="" class="footer-list-item">About Us</a></li>
+                            <li><a href="" class="footer-list-item">Customers</a></li>
+                            <li><a href="" class="footer-list-item">Partners</a></li>
+                            <li><a href="" class="footer-list-item">Reviews</a></li>
+                            <li><a href="" class="footer-list-item">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-xl-3 col-md-4 mt-4 mt-md-0">
+                        <h4 class="footer-heading">Careers</h4>
+                        <ul>
+                            <li><a href="" class="footer-list-item">Cybersecurity</a></li>
+                            <li><a href="" class="footer-list-item">IT & Telecom</a></li>
+                            <li><a href="" class="footer-list-item">Financial Services</a></li>
+                            <li><a href="" class="footer-list-item">Government</a></li>
+                            <li><a href="" class="footer-list-item">Healthcare</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-md-4 mt-4 mt-md-0">
+                        <h4 class="footer-heading">Resources</h4>
+                        <ul>
+                            <li><a href="" class="footer-list-item">Features</a></li>
+                            <li><a href="" class="footer-list-item">Pricing</a></li>
+                            <li><a href="" class="footer-list-item">API Documentation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Js Cdn Link  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Custom Js link  -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
