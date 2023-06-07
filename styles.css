@@ -192,7 +192,12 @@ p {
 .perform,
 .quote-text,
 .contact-section,
-.complimentary,.penetraion-test {
+.complimentary,
+.penetraion-test,
+.argos,
+.dashboard,
+.shadow-it,
+.analysis {
     margin: 120px 0px;
 }
 
@@ -667,7 +672,12 @@ header .dropdown-toggle::after {
     .Past-Work,
     .quote-text,
     .contact-section,
-    .complimentary,.penetraion-test {
+    .complimentary,
+    .penetraion-test,
+    .argos,
+    .dashboard,
+    .shadow-it,
+    .analysis {
         margin: 80px 0px;
     }
 
@@ -722,13 +732,13 @@ header .dropdown-toggle::after {
     }
 
     .section-heading-dark {
-        font-size: 36px;
-        line-height: 46px;
+        font-size: 32px;
+        line-height: 42px;
     }
 
     .section-heading-light {
-        font-size: 36px;
-        line-height: 46px;
+        font-size: 32px;
+        line-height: 42px;
     }
 
     .section-pera {
@@ -753,7 +763,12 @@ header .dropdown-toggle::after {
     .Past-Work,
     .quote-text,
     .contact-section,
-    .complimentary,.penetraion-test {
+    .complimentary,
+    .penetraion-test,
+    .argos,
+    .dashboard,
+    .shadow-it,
+    .analysis {
         margin: 60px 0px;
     }
 
@@ -832,7 +847,12 @@ header .dropdown-toggle::after {
     .Past-Work,
     .quote-text,
     .contact-section,
-    .complimentary,.penetraion-test {
+    .complimentary,
+    .penetraion-test,
+    .argos,
+    .dashboards,
+    .shadow-it,
+    .analysis {
         margin: 50px 0px;
     }
 
@@ -1264,11 +1284,13 @@ header .dropdown-toggle::after {
     background: url(./Assets/Images/other-banner-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
     padding: 180px 0px;
     margin-top: -106px;
     z-index: 555;
     position: relative;
+    border-bottom-left-radius: 0% 20%;
+    border-bottom-right-radius: 0% 20%;
 }
 
 .other-banners:before {
@@ -1399,13 +1421,16 @@ header .dropdown-toggle::after {
     position: relative;
     margin-bottom: 30px;
 }
-.timeline-row:last-child{
+
+.timeline-row:last-child {
     margin-bottom: 0px;
 }
-.timeline-row:last-child .timeline-content p{
-        margin-bottom: 0px;
+
+.timeline-row:last-child .timeline-content p {
+    margin-bottom: 0px;
 }
-.timeline-row:last-child .timeline-content{
+
+.timeline-row:last-child .timeline-content {
     margin-bottom: 0px;
 }
 
@@ -1519,7 +1544,7 @@ header .dropdown-toggle::after {
     text-align: left;
     margin-right: 0;
     margin-left: 20px;
-    top:-10px;
+    top: -10px;
 }
 
 .timeline-row:nth-child(even) .timeline-content {
@@ -1533,45 +1558,35 @@ header .dropdown-toggle::after {
     transform: rotate(45deg);
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1024px) {
     .timeline2 {
         width: 100%;
     }
 }
 
 @media (max-width: 767px) {
-.timeline-row:nth-child(odd) .timeline-content{
-    margin-left: 20px;
-}
-.timeline-row:nth-child(even) .timeline-content{
-    margin-right: 20px;
-}
-.timeline-row .timeline-content:before{
-    right: -23px;
-}
-.timeline-row:nth-child(odd) .timeline-content:before{
-    left:-25px;
-}
-.timeline-row .timeline-content p {
-    font-size: 14px;
-}
+    .timeline-row:nth-child(odd) .timeline-content {
+        margin-left: 20px;
+    }
+
+    .timeline-row:nth-child(even) .timeline-content {
+        margin-right: 20px;
+    }
+
+    .timeline-row .timeline-content:before {
+        right: -23px;
+    }
+
+    .timeline-row:nth-child(odd) .timeline-content:before {
+        left: -25px;
+    }
+
+    .timeline-row .timeline-content p {
+        font-size: 14px;
+    }
 }
 
 /* penetraion test timeline style  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .contact-section {
     background: linear-gradient(294.61deg, #6C2DFF 2.3%, #7B42FF 29.86%, #200A53 101.35%);
@@ -1650,7 +1665,7 @@ header .dropdown-toggle::after {
 @media screen and (max-width: 992px) {
     .other-banners {
         background-size: cover;
-        padding: 120px 0px 80px 0px;
+        padding: 120px 20px 80px 20px;
     }
 
     .other-banners:before {
@@ -1669,7 +1684,9 @@ header .dropdown-toggle::after {
 @media screen and (max-width: 767px) {
     .other-banners {
         background-size: cover;
-        padding: 120px 0px 80px 0px;
+        padding: 120px 20px 80px 20px;
+        border-bottom-left-radius: 110% 20%;
+        border-bottom-right-radius: 110% 20%;
     }
 
     .other-banners:before {
@@ -1693,3 +1710,124 @@ header .dropdown-toggle::after {
         padding: 50px 24px;
     }
 }
+
+
+/* penetration page style end here  */
+
+
+
+/* argos page style start here  */
+
+
+.argos .img img {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.analysis {
+    background-color: #F6F2FF;
+    padding: 100px 0px 140px 0px;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.shadow-it {
+    background-color: #F6F2FF;
+    padding: 140px 0px 100px 0px;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+}
+
+.it-work2{
+    background-color: var(--button-bg);
+}
+@media screen and (max-width:1024px) {
+    .argos .img img {
+        width: 80%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .argos .img img {
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .argos .img img {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+
+        .analysis {
+            padding: 50px 0px 70px 0px;
+            clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+        }
+
+        .shadow-it {
+            padding: 70px 0px 50px 0px;
+            clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+        }
+}
+
+
+
+
+
+
+
+
+
+/* argos page style end here  */
+
+
+
+
+/* blog page styles start  */
+
+.main-blog .img img {
+    border-radius: 16px;
+}
+
+.blog-category {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #9567FF;
+}
+
+.blog-main-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #242121;
+}
+
+.blog-main-details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5C5D5E;
+}
+
+.blog-info {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #585858;
+}
+
+.blog-info .blog-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #1A1A1A;
+}
+
+/* blog page styles end */
