@@ -2345,7 +2345,7 @@ svg circle:nth-child(2) {
 
 
 .widget-box #font-change[type=range] {
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     margin: 0px 0;
     width: 100%;
 }
