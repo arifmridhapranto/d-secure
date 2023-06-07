@@ -193,11 +193,15 @@ p {
 .quote-text,
 .contact-section,
 .complimentary,
+<<<<<<< HEAD
 .penetraion-test,
 .argos,
 .dashboard,
 .shadow-it,
 .analysis {
+=======
+.penetraion-test {
+>>>>>>> bbebf9aa8dab796696632d4355d2fc537e8f0c99
     margin: 120px 0px;
 }
 
@@ -544,6 +548,7 @@ header .dropdown-toggle::after {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
+    font-style: italic;
     text-transform: capitalize;
     color: #9567FF;
 }
@@ -673,11 +678,15 @@ header .dropdown-toggle::after {
     .quote-text,
     .contact-section,
     .complimentary,
+<<<<<<< HEAD
     .penetraion-test,
     .argos,
     .dashboard,
     .shadow-it,
     .analysis {
+=======
+    .penetraion-test {
+>>>>>>> bbebf9aa8dab796696632d4355d2fc537e8f0c99
         margin: 80px 0px;
     }
 
@@ -764,11 +773,15 @@ header .dropdown-toggle::after {
     .quote-text,
     .contact-section,
     .complimentary,
+<<<<<<< HEAD
     .penetraion-test,
     .argos,
     .dashboard,
     .shadow-it,
     .analysis {
+=======
+    .penetraion-test {
+>>>>>>> bbebf9aa8dab796696632d4355d2fc537e8f0c99
         margin: 60px 0px;
     }
 
@@ -848,11 +861,15 @@ header .dropdown-toggle::after {
     .quote-text,
     .contact-section,
     .complimentary,
+<<<<<<< HEAD
     .penetraion-test,
     .argos,
     .dashboards,
     .shadow-it,
     .analysis {
+=======
+    .penetraion-test {
+>>>>>>> bbebf9aa8dab796696632d4355d2fc537e8f0c99
         margin: 50px 0px;
     }
 
@@ -1712,6 +1729,7 @@ header .dropdown-toggle::after {
 }
 
 
+<<<<<<< HEAD
 /* penetration page style end here  */
 
 
@@ -1782,6 +1800,8 @@ header .dropdown-toggle::after {
 /* argos page style end here  */
 
 
+=======
+>>>>>>> bbebf9aa8dab796696632d4355d2fc537e8f0c99
 
 
 /* blog page styles start  */
