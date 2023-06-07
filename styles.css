@@ -200,7 +200,7 @@ p {
 .analysis,
 .faq,
 .threat-box,
-.pricing {
+.pricing,.main-blog {
     margin: 120px 0px;
 }
 
@@ -687,7 +687,7 @@ header .dropdown-toggle::after {
     .analysis,
     .faq,
     .threat-box,
-    .pricing {
+    .pricing,.main-blog {
         margin: 80px 0px;
     }
 
@@ -781,7 +781,7 @@ header .dropdown-toggle::after {
     .analysis,
     .faq,
     .threat-box,
-    .pricing {
+    .pricing,.main-blog {
         margin: 60px 0px;
     }
 
@@ -868,7 +868,7 @@ header .dropdown-toggle::after {
     .analysis,
     .faq,
     .threat-box,
-    .pricing {
+    .pricing,.main-blog {
         margin: 50px 0px;
     }
 
@@ -2008,11 +2008,6 @@ svg circle:nth-child(2) {
 }
 
 
-
-
-
-
-
 .threat-box .row {
     background-color: #6726ff;
     border-radius: 32px;
@@ -2230,7 +2225,27 @@ svg circle:nth-child(2) {
 
 .main-blog .img img {
     border-radius: 16px;
+    width: 100%;
 }
+.button-fill-blue{
+    font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: var(--heading-color);
+        background-color: var(--button-bg);
+        border: 1px solid var(--button-bg);
+        padding: 12px 24px;
+        border-radius: 8px;
+        transition: 0.3s linear;
+}
+
+
+.button-fill-blue:hover {
+    color: var(--button-bg);
+    background-color: transparent;
+    border: 1px solid var(--button-bg);
+}
+
 
 .blog-category {
     font-weight: 400;
@@ -2264,6 +2279,7 @@ svg circle:nth-child(2) {
     color: #585858;
 }
 
+
 .blog-info .blog-name {
     font-weight: 400;
     font-size: 14px;
@@ -2271,5 +2287,75 @@ svg circle:nth-child(2) {
     text-transform: capitalize;
     color: #1A1A1A;
 }
+
+.sub-blog-item .img{
+    width: 43%;
+}
+.sub-blog-item .sub-blog-content{
+    width: 57%;
+}
+.sub-blog-item{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.sub-blog-item .img img{
+    border-radius: 16px;
+    width: 100%;
+}
+.blog-sub-title{
+    font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        text-transform: capitalize;
+        color: #171718;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .blog-main-title {
+            font-size: 32px;
+            line-height: 42px;
+        }
+                .blog-sub-title {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    text-transform: capitalize;
+                    color: #171718;
+                }
+}
+
+@media screen and (max-width:991px) {
+    .blog-main-title {
+            font-size: 24px;
+            line-height: 34px;
+        }
+                .blog-sub-title {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    text-transform: capitalize;
+                    color: #171718;
+                }
+
+}
+
+@media screen and (max-width:767px) {
+.sub-blog-item {
+    gap: 20px;
+        flex-direction: column;
+    }
+        .sub-blog-item .img {
+            width: 100%;
+        }
+
+        .sub-blog-item .sub-blog-content {
+            width: 100%;
+        }
+}
+
 
 /* blog page styles end */
