@@ -202,7 +202,9 @@ p {
 .threat-box,
 .pricing,
 .main-blog,
-.sub-blog,.page-list {
+.sub-blog,
+.page-list,
+.blog-content-section {
     margin: 120px 0px;
 }
 
@@ -692,7 +694,9 @@ header .dropdown-toggle::after {
     .threat-box,
     .pricing,
     .main-blog,
-    .sub-blog,.page-list {
+    .sub-blog,
+    .page-list,
+    .blog-content-section {
         margin: 80px 0px;
     }
 
@@ -788,7 +792,9 @@ header .dropdown-toggle::after {
     .threat-box,
     .pricing,
     .main-blog,
-    .sub-blog,.page-list {
+    .sub-blog,
+    .page-list,
+    .blog-content-section {
         margin: 60px 0px;
     }
 
@@ -877,7 +883,9 @@ header .dropdown-toggle::after {
     .threat-box,
     .pricing,
     .main-blog,
-    .sub-blog,.page-list {
+    .sub-blog,
+    .page-list,
+    .blog-content-section {
         margin: 50px 0px;
     }
 
@@ -2507,9 +2515,11 @@ svg circle:nth-child(2) {
     display: inline-block;
     margin-right: 12px;
 }
+
 .page-list .list .list-item:last-child {
     margin-right: 0px;
 }
+
 .page-list .list .list-item a {
     font-weight: 400;
     font-size: 14px;
@@ -2585,3 +2595,71 @@ svg circle:nth-child(2) {
 
 
 /* blog page styles end */
+
+
+
+
+/* single-blog page start here  */
+.single-blog header {
+    background: linear-gradient(104.95deg, #200A53 25.47%, #6826FF 125.31%);
+}
+
+.single-main-section {
+    margin: 80px 0px 120px 0px;
+}
+
+.single-main-section .row img {
+    border-radius: 16px;
+}
+
+.blog-content-section img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.blog-content-section .single-blog-sidebar {
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding: 40px 35px 40px 35px;
+}
+
+.single-blog-sidebar ul li {
+    margin-bottom: 30px;
+}
+
+.single-blog-sidebar ul li a {
+    border-left: 2px solid transparent;
+    color: #585858;
+    padding-left: 14px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.single-blog-sidebar ul li a.active {
+    border-left: 2px solid #585858;
+    color: #6826FF !important;
+    padding-left: 14px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 1024px) {
+    .single-blog-sidebar ul li a.active {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+          .single-blog-sidebar ul li a {
+              font-size: 16px;
+              padding-left: 10px;
+          }
+
+}
+
+
+
+/* single-blog page end here  */
