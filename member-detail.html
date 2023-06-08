@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSecured - Cyber Security Solutions.</title>
+
+
+    <!-- Bootstrap Css CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- Custom Css File Link   -->
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="member-detail-page">
+
+    <!-- header section Start  -->
+    <header class="py-lg-4 p-4">
+        <div class="container-lg container-fluid d-flex justify-content-between align-items-center">
+            <div class="brand"><a href="./index.html" class="navbar-brand"><img src="./Assets/Images/main-logo.svg"
+                        alt="logo" class="d-inline-block "></a></div>
+            <nav>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Solutions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Customers</a></li>
+                </ul>
+            </nav>
+            <div class="d-flex gap-3 ">
+                <li class="nav-item dropdown d-none d-lg-block" style="list-style: none;">
+                    <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-light">
+                        <li><a class="dropdown-item" href="#">BN</a></li>
+                        <li><a class="dropdown-item" href="#">CN</a></li>
+                    </ul>
+                </li>
+                <a class="d-none d-lg-block" href="#"><button type="button" class=" btn button-fill">Contact
+                        Us</button></a>
+            </div>
+            <div class="mobile-menu-section">
+
+                <div class="d-flex align-items-center" style="gap: 30px;display: none;">
+                    <div class="button d-block d-lg-none">
+                        <li class="nav-item dropdown" style="list-style: none;">
+                            <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-light">
+                                <li><a class="dropdown-item" href="#">BN</a></li>
+                                <li><a class="dropdown-item" href="#">CN</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="menu">
+                        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                            <ul class="mobile-menu">
+                                <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./services.html">Resources</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./services.html">Solutions</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./contact.html">Customers</a></li>
+                                <li class="nav-item w-100"><a class="nav-link" href="#"><button
+                                            class="button-fill w-100">Contact
+                                            us</button></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section End  -->
+
+    <main>
+
+        <section class="member-detail-section px-4 px-xl-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12 mb-4 mb-md-0">
+                        <div class="img"><img src="./Assets/Images/member-details-image.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <h4 class="member-name pb-3">Dianne Russell</h4>
+                        <h6 class="member-designation pb-3">Marketing Coordinator</h6>
+                        <p class="member-desc pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. A arcu cursus vitae congue mauris rhoncus aenean vel. Massa enim nec dui nunc
+                            mattis. Porta lorem mollis aliquam
+                            ut porttitor leo a diam sollicitudin. Id donec ultrices tincidunt arcu non sodales neque.
+                            Fames ac turpis egestas
+                            integer eget aliquet nibh praesent. Velit sed ullamcorper morbi tincidunt.<br> Vehicula
+                            ipsum a arcu cursus vitae congue
+                            mauris rhoncus aenean. Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris.
+                            Est pellentesque elit
+                            ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Turpis massa tincidunt dui ut
+                            ornare lectus sit amet.
+                            Amet aliquam id diam maecenas ultricies mi eget mauris pharetra.<br>Mi ipsum faucibus vitae
+                            aliquet nec. Arcu bibendum at
+                            varius vel pharetra vel turpis.</p>
+                        <div class="profiles">
+                            <ul>
+                                <li><a href="" class="profile-items">Github</a></li>
+                                <li><a href="" class="profile-items">HackerOne</a></li>
+                                <li><a href="" class="profile-items">BugCrowd</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- specialize section start here  -->
+
+        <section class="how-works px-4 px-xl-0">
+            <div class="container">
+                <h2 class="section-heading-dark text-center pb-4">specialize in/Areas of interest</h2>
+                <div class="row justify-content-between pt-4">
+                    <div class="  col-md-4 col-12 mb-5 mb-md-0 ">
+                        <div class="box">
+                            <img src="./Assets/Images/specialize-icon-1.svg" alt="" class="img-fluid">
+                            <h4 class="box-heading">Web application</h4>
+                            <p class="box-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                    <div class="  col-md-4 col-12 mb-5 mb-md-0">
+                        <div class="box">
+                            <img src="./Assets/Images/specialize-icon-2.svg" alt="" class="img-fluid">
+                            <h4 class="box-heading">Mobile applications</h4>
+                            <p class="box-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                    <div class="  col-md-4 col-12 mb-5 mb-md-0">
+                        <div class="box">
+                            <img src="./Assets/Images/specialize-icon-3.svg" alt="" class="img-fluid">
+                            <h4 class="box-heading">IoT</h4>
+                            <p class="box-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between pt-4 mt-0 mt-md-5">
+                    <div class="  col-md-4 col-12 mb-5 mb-md-0 ">
+                        <div class="box">
+                            <img src="./Assets/Images/specialize-icon-4.svg" alt="" class="img-fluid">
+                            <h4 class="box-heading">Bug Bounty consulting</h4>
+                            <p class="box-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                    <div class="  col-md-4 col-12 mb-5 mb-md-0">
+                        <div class="box">
+                            <img src="./Assets/Images/specialize-icon-5.svg" alt="" class="img-fluid">
+                            <h4 class="box-heading">Compliance</h4>
+                            <p class="box-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                    <div class="  col-md-4 col-12 mb-5 mb-md-0">
+                        <div class="box">
+                            <img src="./Assets/Images/specialize-icon-6.svg" alt="" class="img-fluid">
+                            <h4 class="box-heading">Risk assessment</h4>
+                            <p class="box-pera">CLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between pt-4 mt-0 mt-md-5">
+                    <div class="  col-md-4 col-12 mb-5 mb-md-0">
+                        <div class="box">
+                            <img src="./Assets/Images/specialize-icon-7.svg" alt="" class="img-fluid">
+                            <h4 class="box-heading">Continuous attack surface discovery</h4>
+                            <p class="box-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                    <div class="  col-md-4 col-12 mb-5 mb-md-0">
+                        <div class="box">
+                            <img src="./Assets/Images/specialize-icon-8.svg" alt="" class="img-fluid">
+                            <h4 class="box-heading">Binary exploitation</h4>
+                            <p class="box-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+
+                    </div>
+                    <div class="  col-md-4 col-12">
+                        <div class="box">
+                            <img src="./Assets/Images/specialize-icon-9.svg" alt="" class="img-fluid">
+                            <h4 class="box-heading">Software development</h4>
+                            <p class="box-pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- specialize section end here  -->
+
+        <!-- client says section starts   -->
+
+        <section class="client-says2">
+            <div class="container" style="z-index: 999;">
+                <div class="row flex-column-reverse flex-md-row">
+                    <div class="col-md-5 col-12 image-side ">
+                        <img src="./Assets/Images/client-says-img.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-6 offset-md-1 col-12 p-0">
+                        <h2 class="section-heading-dark mb-4">what our client say about us?</h2>
+                        <p class="section-pera mb-3" style="color: #585858;">"DSecure GmbH provided excellent
+                            penetration testing services for
+                            our company. They were very thorough and professional throughout the entire process. We were
+                            impressed with their attention to detail and their ability to identify even the most obscure
+                            vulnerabilities. We highly recommend DSecure to anyone looking for top-quality IT security
+                            services."</p>
+                        <hr>
+                        <div class="author-profile d-flex align-items-start mt-4" style="column-gap: 10px">
+                            <div class="img d-flex justify-content-end align-items-end">
+                                <img src="./Assets/Images/does-it-works-img.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6 class="author-name mb-0">John Smith</h6>
+                                <p class="author-post mb-0">CEO at ABC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- client says section ends   -->
+
+
+        <section class="logos px-4 px-xl-0">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-8 col-md-10 col-12 mx-auto">
+                        <h2 class="section-heading-dark text-center pb-lg-4 mb-lg-4  pb-3 mb-3">owns Certificates</h2>
+                        <div class="certificate-logo">
+                            <div class="row justify-content-between mx-auto g-3">
+                                <div class="col-md-2 col-4">
+                                    <img src="./Assets/Images/logo-1.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-md-2 col-4"><img src="./Assets/Images/logo-2.png" alt=""
+                                        class="img-fluid"></div>
+                                <div class="col-md-2 col-4"><img src="./Assets/Images/logo-3.png" alt=""
+                                        class="img-fluid"></div>
+                                <div class="col-md-2 col-4"><img src="./Assets/Images/logo-4.png" alt=""
+                                        class="img-fluid"></div>
+                                <div class="col-md-2 col-4"><img src="./Assets/Images/logo-5.png" alt=""
+                                        class="img-fluid"></div>
+                                <div class="col-md-2 col-4 d-block d-md-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="party-media p-4 pt-0 pb-0 p-xl-0">
+            <div class="container p-0">
+                <h2 class="section-heading-dark mb-0 mb-lg-3 pb-4 text-center">Post in third party media</h2>
+                <div class="d-flex media-blog">
+                    <div class=" mb-5 mb-md-0 blog-box">
+                        <div class="img">
+                            <img src="./Assets/Images/blog-img-1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="blog-content">
+                            <p class="blog-category mb-3">Tech News</p>
+                            <h3 class="blog-title mb-3">How Threat Actors are Exploiting ChatGPT's Popularity.</h3>
+                            <a href="#">
+                                <button class="blog-btn">See Post</button></a>
+                        </div>
+                    </div>
+                    <div class="  mb-5 mb-md-0 blog-box">
+                        <div class="img">
+                            <img src="./Assets/Images/blog-img-2.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="blog-content">
+                            <p class="blog-category mb-3">Tech News</p>
+                            <h3 class="blog-title mb-3">How Threat Actors are Exploiting ChatGPT's Popularity.</h3>
+                            <a href="#">
+                                <button class="blog-btn">See Post</button></a>
+                        </div>
+                    </div>
+                    <div class="  mb-5 mb-md-0 blog-box">
+                        <div class="img">
+                            <img src="./Assets/Images/blog-img-3.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="blog-content">
+                            <p class="blog-category mb-3">Tech News</p>
+                            <h3 class="blog-title mb-3">How Threat Actors are Exploiting ChatGPT's Popularity.</h3>
+
+                            <a href="#">
+                                <button class="blog-btn">See Post</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-section px-4 px-xl-0">
+            <div class="container">
+                <div class="videoCoverImage">
+                    <div id="thevideo" style="display: block;">
+                        <iframe width="100%" src="https://www.youtube.com/embed/dqm-Lv03AN4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Blog section Start  -->
+
+        <section class="blog p-4 pt-0 pb-0 p-xl-0">
+            <div class="container">
+                <h2 class="section-heading-dark mb-0 mb-lg-3 pb-4 text-center">Dianne’s Posts</h2>
+                <div class="row">
+                    <div class="col-md-4 col-12 mb-5 mb-md-0">
+                        <div class="img mb-3">
+                            <img src="./Assets/Images/blog-img-1.png" alt="" class="img-fluid">
+                        </div>
+                        <p class="blog-category mb-3">Insignts ransmware</p>
+                        <h3 class="blog-title mb-3">How Threat Actors are Exploiting ChatGPT's Popularity.</h3>
+                        <p class="blog-details">CloudSEK's investigation has revealed the presence of 13 Facebook
+                            pages/accounts (totaling over 500K followers)</p>
+                        <span class="blog-info">
+                            <p>By <span class="blog-name">Dianne</span> on May 7, 2023</p>
+                        </span>
+                    </div>
+                    <div class="col-md-4 col-12 mb-5 mb-md-0">
+                        <div class="img mb-3">
+                            <img src="./Assets/Images/blog-img-2.png" alt="" class="img-fluid">
+                        </div>
+                        <p class="blog-category mb-3">Insignts ransmware</p>
+                        <h3 class="blog-title mb-3">How Threat Actors are Exploiting ChatGPT's Popularity.</h3>
+                        <p class="blog-details mb-3">CloudSEK's investigation has revealed the presence of 13 Facebook
+                            pages/accounts (totaling over 500K followers)</p>
+                        <span class="blog-info">
+                            <p>By <span class="blog-name">Dianne</span> on May 7, 2023</p>
+                        </span>
+                    </div>
+                    <div class="col-md-4 col-12 mb-5 mb-md-0">
+                        <div class="img mb-3">
+                            <img src="./Assets/Images/blog-img-3.png" alt="" class="img-fluid">
+                        </div>
+                        <p class="blog-category mb-3">Insignts ransmware</p>
+                        <h3 class="blog-title mb-3">How Threat Actors are Exploiting ChatGPT's Popularity.</h3>
+                        <p class="blog-details mb-3">CloudSEK's investigation has revealed the presence of 13 Facebook
+                            pages/accounts (totaling over 500K followers)</p>
+                        <span class="blog-info">
+                            <p>By <span class="blog-name">Dianne</span> on May 7, 2023</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog section end  -->
+
+
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container p-4 p-xl-0">
+            <div class="row">
+                <div class="offset-xl-1 col-xl-2 col-md-3 offset-xl-1">
+                    <a href=""><img src="./Assets/Images/footer-logo.svg" alt="" class="img-fluid"></a>
+                </div>
+                <div
+                    class=" offset-md-1 offset-xl-1 col-xl-7 col-md-8 d-flex justify-content-between flex-column flex-md-row">
+                    <div class="col-xl-3 col-md-4 mt-4 mt-md-0">
+                        <h4 class="footer-heading">Company</h4>
+                        <ul>
+                            <li><a href="" class="footer-list-item">About Us</a></li>
+                            <li><a href="" class="footer-list-item">Customers</a></li>
+                            <li><a href="" class="footer-list-item">Partners</a></li>
+                            <li><a href="" class="footer-list-item">Reviews</a></li>
+                            <li><a href="" class="footer-list-item">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-xl-3 col-md-4 mt-4 mt-md-0">
+                        <h4 class="footer-heading">Careers</h4>
+                        <ul>
+                            <li><a href="" class="footer-list-item">Cybersecurity</a></li>
+                            <li><a href="" class="footer-list-item">IT & Telecom</a></li>
+                            <li><a href="" class="footer-list-item">Financial Services</a></li>
+                            <li><a href="" class="footer-list-item">Government</a></li>
+                            <li><a href="" class="footer-list-item">Healthcare</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-md-4 mt-4 mt-md-0">
+                        <h4 class="footer-heading">Resources</h4>
+                        <ul>
+                            <li><a href="" class="footer-list-item">Features</a></li>
+                            <li><a href="" class="footer-list-item">Pricing</a></li>
+                            <li><a href="" class="footer-list-item">API Documentation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Js Cdn Link  -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom Js link  -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
