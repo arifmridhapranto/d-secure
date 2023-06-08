@@ -210,7 +210,9 @@ p {
 .client-says2,
 .member-detail-section,
 .party-media,
-.steps,.result,.it-work {
+.steps,
+.result,
+.it-work {
     margin: 120px 0px;
 }
 
@@ -716,7 +718,9 @@ header .dropdown-toggle::after {
     .client-says2,
     .member-detail-section,
     .party-media,
-    .steps,.result,.it-work {
+    .steps,
+    .result,
+    .it-work {
         margin: 80px 0px;
     }
 
@@ -820,7 +824,9 @@ header .dropdown-toggle::after {
     .client-says2,
     .member-detail-section,
     .party-media,
-    .steps,.result,.it-work {
+    .steps,
+    .result,
+    .it-work {
         margin: 60px 0px;
     }
 
@@ -917,7 +923,9 @@ header .dropdown-toggle::after {
     .client-says2,
     .member-detail-section,
     .party-media,
-    .steps,.result,.it-work {
+    .steps,
+    .result,
+    .it-work {
         margin: 50px 0px;
     }
 
@@ -2814,6 +2822,7 @@ svg circle:nth-child(2) {
 
 #thevideo iframe {
     height: 750px;
+    width: 100%;
     border-radius: 16px;
 }
 
@@ -2827,6 +2836,7 @@ svg circle:nth-child(2) {
 @media screen and (max-width: 1024px) {
     #thevideo iframe {
         height: 430px;
+        width: 100%;
     }
 
     .videoCoverImage img {
@@ -2837,6 +2847,7 @@ svg circle:nth-child(2) {
 @media screen and (max-width: 991px) {
     #thevideo iframe {
         height: 350px;
+        width: 100%;
     }
 
     .videoCoverImage img {
@@ -2861,6 +2872,7 @@ svg circle:nth-child(2) {
 
     #thevideo iframe {
         height: 260px;
+        width: 100%;
     }
 
     .videoCoverImage img {
@@ -2925,8 +2937,9 @@ svg circle:nth-child(2) {
     color: #5C5D5E;
     padding: 16px 0px;
 }
-.steps .accordion-body p{
-font-weight: 400;
+
+.steps .accordion-body p {
+    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #585858;
@@ -3108,10 +3121,11 @@ font-weight: 400;
         font-size: 14px;
         line-height: 24px;
     }
-        .steps .accordion-body p {
-            font-size: 12px;
-                line-height: 20px;
-        }
+
+    .steps .accordion-body p {
+        font-size: 12px;
+        line-height: 20px;
+    }
 }
 
 /* bug bounty page styles here  */
