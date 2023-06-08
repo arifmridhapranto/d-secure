@@ -19,7 +19,6 @@
 </head>
 
 <body>
-
     <!-- header section Start  -->
     <header class="py-lg-4 p-4">
         <div class="container-lg container-fluid d-flex justify-content-between align-items-center">
@@ -35,32 +34,35 @@
                 </ul>
             </nav>
             <div class="d-flex gap-3 ">
-                <li class="nav-item dropdown d-none d-lg-block" style="list-style: none;">
-                    <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-light">
-                        <li><a class="dropdown-item" href="#">BN</a></li>
-                        <li><a class="dropdown-item" href="#">CN</a></li>
-                    </ul>
-                </li>
-                <a class="d-none d-lg-block" href="#"><button type="button" class=" btn button-fill">Contact
-                        Us</button></a>
+                <ul>
+                    <li class="nav-item dropdown d-none d-lg-block" style="list-style: none;">
+                        <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">BN</a></li>
+                            <li><a class="dropdown-item" href="#">CN</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a class="d-none d-lg-block btn button-fill" href="#">Contact Us</a>
             </div>
             <div class="mobile-menu-section">
 
                 <div class="d-flex align-items-center" style="gap: 30px;display: none;">
                     <div class="button d-block d-lg-none">
-                        <li class="nav-item dropdown" style="list-style: none;">
-                            <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">BN</a></li>
-                                <li><a class="dropdown-item" href="#">CN</a></li>
-                            </ul>
-                        </li>
+                        <ul>
+                            <li class="nav-item dropdown" style="list-style: none;">
+                                <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-light">
+                                    <li><a class="dropdown-item" href="#">BN</a></li>
+                                    <li><a class="dropdown-item" href="#">CN</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <div class="menu">
                         <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
@@ -73,9 +75,8 @@
                                 <li class="nav-item"><a class="nav-link" href="./services.html">Resources</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./services.html">Solutions</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./contact.html">Customers</a></li>
-                                <li class="nav-item w-100"><a class="nav-link" href="#"><button
-                                            class="button-fill w-100">Contact
-                                            us</button></a></li>
+                                <li class="nav-item w-100"><a class="nav-link button-fill w-100" href="#">Contact us</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -118,13 +119,14 @@
                         <p class="blog-category mb-2">Insignts ransmware</p>
                         <h3 class="blog-main-title mb-2">How Threat Actors are Exploiting ChatGPT's Popularity.</h3>
                         <span class="blog-info mb-2">
-                            <p>By <span class="blog-name">Dianne</span> on May 7, 2023</p>
+                            By <span class="blog-name">Dianne</span> on May 7, 2023
                         </span>
                         <p class="blog-main-details my-3">CloudSEK's investigation has revealed the presence of 13
                             Facebook
                             pages/accounts (totaling over 500K followers)</p>
-                        <a href="./about.html">
-                            <button class="button-fill-blue">Read More</button></a>
+                        <form action="#" style="display:inline" method="get">
+                            <button class="button-fill-blue">Read More</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -148,7 +150,7 @@
                                 <p class="blog-main-details mb-2">Gain real-time insights, proactive monitoring, and
                                     expert analysis to fortify your ...</p>
                                 <span class="blog-info my-3">
-                                    <p>By <span class="blog-name">Dianne</span> on May 7, 2023</p>
+                                    By <span class="blog-name">Dianne</span> on May 7, 2023
                                 </span>
                             </div>
                         </div>
@@ -162,7 +164,7 @@
                                 <p class="blog-main-details mb-2">Explore the importance of security awareness training,
                                     fostering a culture of vigilance, and ...</p>
                                 <span class="blog-info my-3">
-                                    <p>By <span class="blog-name">Dianne</span> on May 7, 2023</p>
+                                    By <span class="blog-name">Dianne</span> on May 7, 2023
                                 </span>
                             </div>
                         </div>
@@ -176,7 +178,7 @@
                                 <p class="blog-main-details mb-2">Stay Ahead of Evolving Threats. Explore the latest
                                     tactics and techniques used by cybercriminals, ...</p>
                                 <span class="blog-info my-3">
-                                    <p>By <span class="blog-name">Dianne</span> on May 7, 2023</p>
+                                    By <span class="blog-name">Dianne</span> on May 7, 2023
                                 </span>
                             </div>
                         </div>
@@ -224,13 +226,11 @@
         </section>
 
 
-        <section class="page-list">
+        <div class="page-list">
             <div class="container">
                 <div class="row text-center">
                     <ul class="list">
-                        <li class="list-item"><a href="">
-                                << /a>
-                        </li>
+                        <li class="list-item"><a href=""> &lt;</a></li>
                         <li class="list-item"><a href="" class="active">1</a></li>
                         <li class="list-item"><a href="">2</a></li>
                         <li class="list-item"><a href="">3</a></li>
@@ -238,7 +238,7 @@
                     </ul>
                 </div>
             </div>
-        </section>
+        </div>
 
     </main>
 
@@ -249,7 +249,7 @@
                     <a href=""><img src="./Assets/Images/footer-logo.svg" alt="" class="img-fluid"></a>
                 </div>
                 <div
-                    class=" offset-md-1 offset-xl-1 col-xl-7 col-md-8 d-flex justify-content-between flex-column flex-md-row">
+                    class="offset-md-1 offset-xl-1 col-xl-7 col-md-8 d-flex justify-content-between flex-column flex-md-row">
                     <div class="col-xl-3 col-md-4 mt-4 mt-md-0">
                         <h4 class="footer-heading">Company</h4>
                         <ul>
