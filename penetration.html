@@ -35,32 +35,35 @@
                 </ul>
             </nav>
             <div class="d-flex gap-3 ">
-                <li class="nav-item dropdown d-none d-lg-block" style="list-style: none;">
-                    <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-light">
-                        <li><a class="dropdown-item" href="#">BN</a></li>
-                        <li><a class="dropdown-item" href="#">CN</a></li>
-                    </ul>
-                </li>
-                <a class="d-none d-lg-block" href="#"><button type="button" class=" btn button-fill">Contact
-                        Us</button></a>
+                <ul>
+                    <li class="nav-item dropdown d-none d-lg-block" style="list-style: none;">
+                        <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">BN</a></li>
+                            <li><a class="dropdown-item" href="#">CN</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a class="d-none d-lg-block btn button-fill" href="#">Contact Us</a>
             </div>
             <div class="mobile-menu-section">
 
                 <div class="d-flex align-items-center" style="gap: 30px;display: none;">
                     <div class="button d-block d-lg-none">
-                        <li class="nav-item dropdown" style="list-style: none;">
-                            <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">BN</a></li>
-                                <li><a class="dropdown-item" href="#">CN</a></li>
-                            </ul>
-                        </li>
+                        <ul>
+                            <li class="nav-item dropdown" style="list-style: none;">
+                                <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-light">
+                                    <li><a class="dropdown-item" href="#">BN</a></li>
+                                    <li><a class="dropdown-item" href="#">CN</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <div class="menu">
                         <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
@@ -73,9 +76,8 @@
                                 <li class="nav-item"><a class="nav-link" href="./services.html">Resources</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./services.html">Solutions</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./contact.html">Customers</a></li>
-                                <li class="nav-item w-100"><a class="nav-link" href="#"><button
-                                            class="button-fill w-100">Contact
-                                            us</button></a></li>
+                                <li class="nav-item w-100"><a class="nav-link button-fill w-100" href="#">Contact us</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -143,8 +145,11 @@
 
         <section class="type-pentest">
             <div class="container">
-                <h2 class="section-heading-dark"></h2>
-                <p class="pera"></p>
+                <h2 class="section-heading-dark px-3 px-md-0">types of pentests</h2>
+                <p class="pera mb-5 w-75 px-3 px-md-0" style="color: #585858;">There are several types of pentests that
+                    can be performed, depending on the goals of the
+                    test and the scope of the
+                    system being tested. Here are a few examples Blackbox pentest, Greybox pentest, whitebox pentest</p>
                 <div class="row w-100 text-dark px-4 px-md-0">
                     <div class="col-lg-3 col-12 mb-5 mb-lg-0 p-0 p-md-2">
                         <!-- Tab navs -->
@@ -297,7 +302,7 @@
                                 on the scope of the test and the
                                 specific goals of the
                                 organization. However, here are some common outcomes that can be expected from a
-                                penetration test:<br><br>
+                                penetration test:<br><br></p>
                             <ol>
                                 <li class="section-pera mb-2" style="color: #171718">Identification of vulnerabilities:
                                     A penetration test can identify vulnerabilities
@@ -316,7 +321,6 @@
                                     to remediate identified
                                     vulnerabilities and improve the security posture of the system.</li>
                             </ol>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -580,7 +584,7 @@
                     </div>
                     <div class="col-lg-6 offset-lg-1 col-md-6 col-12">
                         <h2 class="section-heading-light mb-4">Contact Us</h2>
-                        <form action="">
+                        <form>
                             <div class=" mb-3">
                                 <input type="text" class="form-control form-control-lg" placeholder="User name"
                                     aria-label="First name" required>
@@ -593,8 +597,7 @@
                                 <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="6"
                                     placeholder="Message "></textarea>
                             </div>
-                            <a href="" class=""><button type="submit"
-                                    class="btn button-outline w-100 mt-2">Send</button></a>
+                            <button type="submit" class="btn button-outline w-100 mt-2">Send</button>
                         </form>
                     </div>
                 </div>
