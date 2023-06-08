@@ -1,11 +1,15 @@
 function toggleMobileMenu(menu) {
   menu.classList.toggle("open");
 }
-
-$("#v-tabs-tab a").click(function (e) {
-  e.preventDefault();
-  $(this).tab("show");
+jQuery(document).ready(function ($) {
+  $("#v-tabs-tab a").click(function (e) {
+    e.preventDefault();
+    $(this).tab("show");
+  });
 });
+
+
+
 
 // $("#font-change").on("input", function () {
 //   $(".blog-sub-title ").css("font-size", $(this).val() + "px");
@@ -14,27 +18,27 @@ $("#v-tabs-tab a").click(function (e) {
 // });
 
 
-$(document).on("input", "#font-change", function () {
-  $("#result").html($(this).val() + "px");
-  $(".blog-sub-title ").css("font-size", $(this).val() + "px");
+jQuery(document).on("input", "#font-change", function () {
+  jQuery("#result").html(jQuery(this).val() + "px");
+  jQuery(".blog-sub-title ").css("font-size", jQuery(this).val() + "px");
 });
 
 
 // single blog page menu item function
 
-$(document).ready(function () {
-  $(document).on("scroll", onScroll);
+jQuery(document).ready(function () {
+  jQuery(document).on("scroll", onScroll);
 
   function onScroll(event) {
-    var scrollPos = $(document).scrollTop();
-    $("a").each(function () {
-      var currLink = $(this);
-      var refElement = $(currLink.attr("href"));
+    var scrollPos = jQuery(document).scrollTop();
+    jQuery("a").each(function () {
+      var currLink = jQuery(this);
+      var refElement = jQuery(currLink.attr("href"));
       if (
         refElement.position().top <= scrollPos &&
         refElement.position().top + refElement.height() > scrollPos
       ) {
-        $("a").removeClass("active");
+        jQuery("a").removeClass("active");
         currLink.addClass("active");
       } else {
         currLink.removeClass("active");
