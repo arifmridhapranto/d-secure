@@ -209,7 +209,8 @@ p {
 .logos,
 .client-says2,
 .member-detail-section,
-.party-media {
+.party-media,
+.steps {
     margin: 120px 0px;
 }
 
@@ -714,7 +715,8 @@ header .dropdown-toggle::after {
     .logos,
     .client-says2,
     .member-detail-section,
-    .party-media {
+    .party-media,
+    .steps {
         margin: 80px 0px;
     }
 
@@ -817,7 +819,8 @@ header .dropdown-toggle::after {
     .logos,
     .client-says2,
     .member-detail-section,
-    .party-media {
+    .party-media,
+    .steps {
         margin: 60px 0px;
     }
 
@@ -913,7 +916,8 @@ header .dropdown-toggle::after {
     .logos,
     .client-says2,
     .member-detail-section,
-    .party-media {
+    .party-media,
+    .steps {
         margin: 50px 0px;
     }
 
@@ -2877,10 +2881,106 @@ svg circle:nth-child(2) {
 
 
 /* bug bounty page styles here  */
+
+
+.steps .colored-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #6826FF;
+}
+
+.steps img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.steps .pera-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #585858;
+}
+
+.steps .pera-text strong {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #585858;
+    display: block;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.steps .accordion-button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #5C5D5E;
+    padding: 16px 0px;
+}
+.steps .accordion-body p{
+font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #585858;
+}
+
+.steps .accordion-button:not(.collapsed) {
+    background-color: #fff;
+    border-bottom: 0px solid #5c5c5c;
+    box-shadow: none;
+}
+
+.steps .accordion-item:first-of-type {
+    border-radius: 0px;
+    border-bottom: 1px solid #5c5c5c;
+}
+
+.steps .accordion-item:last-of-type {
+    border-radius: 0px;
+    border-bottom: 1px solid #5c5c5c;
+}
+
+.steps .accordion-item {
+    border-bottom: 1px solid #5c5c5c;
+}
+
+.steps .accordion-item:first-of-type .accordion-button {
+    border-radius: 0px;
+}
+
+.steps .accordion-button:focus {
+    box-shadow: none;
+}
+
+.steps .accordion-button:focus-visible {
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .bug-bounty-page .complimentary .complimentary-box:nth-child(2) {
     border: none;
 }
-.bug-program .row{
+
+.bug-program .row {
     background-color: #F6F2FF;
     border-radius: 16px;
     padding: 60px 0px;
@@ -2937,6 +3037,7 @@ svg circle:nth-child(2) {
     display: flex;
     gap: 1px;
 }
+
 .bug-program .bug-program-flow .third-row .first-item {
     width: 26%;
 }
@@ -2950,6 +3051,7 @@ svg circle:nth-child(2) {
     border-radius: 8px;
     padding: 18px 20px;
 }
+
 .bug-program .bug-program-flow .third-row .first-item-two {
     background-image: url(./Assets/Images/snd-item.svg);
     background-position: center right;
@@ -2976,6 +3078,7 @@ svg circle:nth-child(2) {
     width: 36%;
     padding: 18px 40px;
 }
+
 .bug-program .bug-program-flow .fourth-row {
     display: flex;
     justify-content: space-between;
@@ -2997,6 +3100,18 @@ svg circle:nth-child(2) {
     border-radius: 8px;
     width: 36%;
     padding: 18px 40px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .steps .accordion-button {
+        font-size: 14px;
+        line-height: 24px;
+    }
+        .steps .accordion-body p {
+            font-size: 12px;
+                line-height: 20px;
+        }
 }
 
 /* bug bounty page styles here  */
