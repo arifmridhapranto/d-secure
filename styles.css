@@ -211,7 +211,8 @@ p {
 .party-media,
 .steps,
 .result,
-.it-work {
+.it-work,
+.success-stories {
     margin: 120px 0px;
 }
 
@@ -719,7 +720,8 @@ header .dropdown-toggle::after {
     .party-media,
     .steps,
     .result,
-    .it-work {
+    .it-work,
+    .success-stories {
         margin: 80px 0px;
     }
 
@@ -825,7 +827,8 @@ header .dropdown-toggle::after {
     .party-media,
     .steps,
     .result,
-    .it-work {
+    .it-work,
+    .success-stories {
         margin: 60px 0px;
     }
 
@@ -924,7 +927,8 @@ header .dropdown-toggle::after {
     .party-media,
     .steps,
     .result,
-    .it-work {
+    .it-work,
+    .success-stories {
         margin: 50px 0px;
     }
 
@@ -1994,6 +1998,68 @@ svg circle:nth-child(2) {
 } */
 
 /* progress box styles here  */
+.story-box-container {
+    display: flex;
+    gap: 30px;
+}
+
+.success-stories .story-box .img img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.success-stories .story-box {
+    cursor: pointer;
+    width: 50%;
+}
+
+.success-stories .story-box:hover .sub-box {
+    display: block;
+}
+
+.story-content-box {
+    background: rgba(23, 23, 24, 0.4);
+    border-radius: 10px;
+    padding: 16px;
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+}
+
+.story-content-box .d-flex {
+    gap: 40px;
+}
+
+.story-content-box .icon {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.success-stories .story-box .sub-box {
+    display: none;
+}
+
+.story-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
 
 .we-helped {
     background: #F6F2FF;
@@ -2237,6 +2303,24 @@ svg circle:nth-child(2) {
         font-size: 20px;
         line-height: 30px;
     }
+
+    .story-content-box .d-flex {
+        gap: 20px;
+    }
+
+    .story-content-box .icon {
+        padding: 14px;
+    }
+
+    .story-title {
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 120%;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -2273,6 +2357,28 @@ svg circle:nth-child(2) {
         font-weight: 400;
         font-size: 18px;
         line-height: 28px;
+    }
+
+    .success-stories .story-box {
+        width: 100%;
+    }
+
+    .story-box-container {
+        flex-direction: column;
+    }
+
+    .story-content-box .icon {
+        padding: 14px;
+    }
+
+    .story-title {
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 120%;
     }
 }
 
