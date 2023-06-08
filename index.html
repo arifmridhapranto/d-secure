@@ -46,23 +46,24 @@
                         </ul>
                     </li>
                 </ul>
-                <a class="d-none d-lg-block" href="#"><button class=" btn button-fill">Contact
-                        Us</button></a>
+                <a class="d-none d-lg-block btn button-fill" href="#">Contact Us</a>
             </div>
             <div class="mobile-menu-section">
 
                 <div class="d-flex align-items-center" style="gap: 30px;display: none;">
                     <div class="button d-block d-lg-none">
-                        <li class="nav-item dropdown" style="list-style: none;">
-                            <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">BN</a></li>
-                                <li><a class="dropdown-item" href="#">CN</a></li>
-                            </ul>
-                        </li>
+                        <ul>
+                            <li class="nav-item dropdown" style="list-style: none;">
+                                <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-light">
+                                    <li><a class="dropdown-item" href="#">BN</a></li>
+                                    <li><a class="dropdown-item" href="#">CN</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <div class="menu">
                         <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
@@ -75,8 +76,8 @@
                                 <li class="nav-item"><a class="nav-link" href="./services.html">Resources</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./services.html">Solutions</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./contact.html">Customers</a></li>
-                                <li class="nav-item w-100"><a class="nav-link" href="#"><button
-                                            class="button-fill w-100">Contact us</button></a></li>
+                                <li class="nav-item w-100"><a class="nav-link button-fill w-100" href="#">Contact us</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -97,8 +98,12 @@
                             safeguard your company's sensitive data
                             and systems. With our state-of-the-art technology and expertise in the field</p>
                         <div class="d-flex" style="column-gap: 10px;">
-                            <a href="#"><button type="button" class=" btn button-fill">Get Started</button></a>
-                            <a href="#"><button type="button" class="btn button-outline">Schedule</button></a>
+                            <form action="#" style="display:inline" method="get">
+                                <button class=" btn button-fill">Get Started</button>
+                            </form>
+                            <form action="#" style="display:inline" method="get">
+                                <button class="btn button-outline">Schedule</button>
+                            </form>
                         </div>
                     </div>
                     <div class="col-md-6 col-12 mt-5 mt-md-0 p-0">
@@ -269,24 +274,21 @@
                         <h2 class="section-heading-dark w-100 w-md-75">Empower your security with Us. Today.</h2>
                     </div>
                     <div class="col-md-6 offset-xl-1 col-xl-5 col-12 p-0">
-                        <form action="">
+                        <form>
                             <div class="row mb-3">
                                 <div class="col">
-                                    <label class="form-label">First Name<span
-                                            style="color: #FF0202">*</span></label>
+                                    <label class="form-label">First Name<span style="color: #FF0202">*</span></label>
                                     <input type="text" class="form-control form-control-lg" placeholder=""
                                         aria-label="First name" required>
                                 </div>
                                 <div class="col">
-                                    <label class="form-label">Last Name<span
-                                            style="color: #FF0202">*</span></label>
+                                    <label class="form-label">Last Name<span style="color: #FF0202">*</span></label>
                                     <input type="text" class="form-control form-control-lg" placeholder=""
                                         aria-label="Last name" required>
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Your Phone Number<span
-                                        style="color: #FF0202">*</span></label>
+                                <label class="form-label">Your Phone Number<span style="color: #FF0202">*</span></label>
                                 <input type="text" class="form-control form-control-lg" id="formGroupExampleInput"
                                     placeholder="" required>
                             </div>
@@ -299,8 +301,7 @@
                                     <option value="3">Three</option>
                                 </select>
                             </div>
-                            <a href="" class=""><button type="submit"
-                                    class="btn button-fill w-100 mt-2">Submit</button></a>
+                            <button type="submit" class="button-fill w-100 mt-2">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -325,7 +326,7 @@
                         <p class="blog-details">CloudSEK's investigation has revealed the presence of 13 Facebook
                             pages/accounts (totaling over 500K followers)</p>
                         <span class="blog-info">
-                            <p>By <span class="blog-name">Dianne</span> on May 7, 2023</p>
+                            By <span class="blog-name">Dianne</span> on May 7, 2023
                         </span>
                     </div>
                     <div class="col-md-4 col-12 mb-5 mb-md-0">
@@ -337,7 +338,7 @@
                         <p class="blog-details mb-3">CloudSEK's investigation has revealed the presence of 13 Facebook
                             pages/accounts (totaling over 500K followers)</p>
                         <span class="blog-info">
-                            <p>By <span class="blog-name">Dianne</span> on May 7, 2023</p>
+                            By <span class="blog-name">Dianne</span> on May 7, 2023
                         </span>
                     </div>
                     <div class="col-md-4 col-12 mb-5 mb-md-0">
@@ -349,7 +350,7 @@
                         <p class="blog-details mb-3">CloudSEK's investigation has revealed the presence of 13 Facebook
                             pages/accounts (totaling over 500K followers)</p>
                         <span class="blog-info">
-                            <p>By <span class="blog-name">Dianne</span> on May 7, 2023</p>
+                            By <span class="blog-name">Dianne</span> on May 7, 2023
                         </span>
                     </div>
                 </div>
