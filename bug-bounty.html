@@ -35,32 +35,35 @@
                 </ul>
             </nav>
             <div class="d-flex gap-3 ">
-                <li class="nav-item dropdown d-none d-lg-block" style="list-style: none;">
-                    <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-light">
-                        <li><a class="dropdown-item" href="#">BN</a></li>
-                        <li><a class="dropdown-item" href="#">CN</a></li>
-                    </ul>
-                </li>
-                <a class="d-none d-lg-block" href="#"><button type="button" class=" btn button-fill">Contact
-                        Us</button></a>
+                <ul>
+                    <li class="nav-item dropdown d-none d-lg-block" style="list-style: none;">
+                        <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">BN</a></li>
+                            <li><a class="dropdown-item" href="#">CN</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a class="d-none d-lg-block btn button-fill" href="#">Contact Us</a>
             </div>
             <div class="mobile-menu-section">
 
                 <div class="d-flex align-items-center" style="gap: 30px;display: none;">
                     <div class="button d-block d-lg-none">
-                        <li class="nav-item dropdown" style="list-style: none;">
-                            <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">BN</a></li>
-                                <li><a class="dropdown-item" href="#">CN</a></li>
-                            </ul>
-                        </li>
+                        <ul>
+                            <li class="nav-item dropdown" style="list-style: none;">
+                                <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-light">
+                                    <li><a class="dropdown-item" href="#">BN</a></li>
+                                    <li><a class="dropdown-item" href="#">CN</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <div class="menu">
                         <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
@@ -73,9 +76,8 @@
                                 <li class="nav-item"><a class="nav-link" href="./services.html">Resources</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./services.html">Solutions</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./contact.html">Customers</a></li>
-                                <li class="nav-item w-100"><a class="nav-link" href="#"><button
-                                            class="button-fill w-100">Contact
-                                            us</button></a></li>
+                                <li class="nav-item w-100"><a class="nav-link button-fill w-100" href="#">Contact us</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -497,7 +499,8 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwelve"
                                             aria-expanded="true" aria-controls="collapseTwelve">
-                                            Constant monitoring of clients attack surface to detect problems faster then ethical hackers
+                                            Constant monitoring of clients attack surface to detect problems faster then
+                                            ethical hackers
                                         </button>
                                     </h2>
                                     <div id="collapseTwelve" class="accordion-collapse collapse"
@@ -526,7 +529,7 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThirteen"
                                             aria-expanded="true" aria-controls="collapseThirteen">
-                                        Writing a proper policy for each client
+                                            Writing a proper policy for each client
                                         </button>
                                     </h2>
                                     <div id="collapseThirteen" class="accordion-collapse collapse"
@@ -650,7 +653,8 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseSixteen"
                                             aria-expanded="true" aria-controls="collapseSixteen">
-                                            Direct communication with clients developers to enable them to fix vulnerabilities faster
+                                            Direct communication with clients developers to enable them to fix
+                                            vulnerabilities faster
                                         </button>
                                     </h2>
                                     <div id="collapseSixteen" class="accordion-collapse collapse"
@@ -695,7 +699,7 @@
             </div>
         </section>
 
-        <section class="bug-program d-none d-md-block">
+        <div class="bug-program d-none d-md-block">
             <div class="container">
                 <div class="row">
                     <div class="col-md-11 col-xl-8 col-12 mx-auto">
@@ -746,9 +750,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="bug-program d-block d-md-none mx-3">
+        <div class="bug-program d-block d-md-none mx-3">
             <div class="container">
                 <div class="row">
                     <div class="col-md-11 col-xl-8 col-12 mx-auto">
@@ -758,7 +762,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
 
         <!-- contact form start  -->
@@ -771,7 +775,7 @@
                     </div>
                     <div class="col-lg-6 offset-lg-1 col-md-6 col-12">
                         <h2 class="section-heading-light mb-4">Contact Us</h2>
-                        <form action="">
+                        <form>
                             <div class=" mb-3">
                                 <input type="text" class="form-control form-control-lg" placeholder="User name"
                                     aria-label="First name" required>
@@ -784,8 +788,8 @@
                                 <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="6"
                                     placeholder="Message "></textarea>
                             </div>
-                            <a href="" class=""><button type="submit"
-                                    class="btn button-outline w-100 mt-2">Send</button></a>
+                            <button type="submit"
+                                    class="btn button-outline w-100 mt-2">Send</button>
                         </form>
                     </div>
                 </div>
