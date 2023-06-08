@@ -19,7 +19,6 @@
 </head>
 
 <body>
-
     <!-- header section Start  -->
     <header class="py-lg-4 p-4">
         <div class="container-lg container-fluid d-flex justify-content-between align-items-center">
@@ -35,32 +34,35 @@
                 </ul>
             </nav>
             <div class="d-flex gap-3 ">
-                <li class="nav-item dropdown d-none d-lg-block" style="list-style: none;">
-                    <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-light">
-                        <li><a class="dropdown-item" href="#">BN</a></li>
-                        <li><a class="dropdown-item" href="#">CN</a></li>
-                    </ul>
-                </li>
-                <a class="d-none d-lg-block" href="#"><button type="button" class=" btn button-fill">Contact
-                        Us</button></a>
+                <ul>
+                    <li class="nav-item dropdown d-none d-lg-block" style="list-style: none;">
+                        <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">BN</a></li>
+                            <li><a class="dropdown-item" href="#">CN</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a class="d-none d-lg-block btn button-fill" href="#">Contact Us</a>
             </div>
             <div class="mobile-menu-section">
 
                 <div class="d-flex align-items-center" style="gap: 30px;display: none;">
                     <div class="button d-block d-lg-none">
-                        <li class="nav-item dropdown" style="list-style: none;">
-                            <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-light">
-                                <li><a class="dropdown-item" href="#">BN</a></li>
-                                <li><a class="dropdown-item" href="#">CN</a></li>
-                            </ul>
-                        </li>
+                        <ul>
+                            <li class="nav-item dropdown" style="list-style: none;">
+                                <button class="btn lang-btn dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    EN <img src="./Assets/Images/drop-down-icon.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-light">
+                                    <li><a class="dropdown-item" href="#">BN</a></li>
+                                    <li><a class="dropdown-item" href="#">CN</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <div class="menu">
                         <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
@@ -73,9 +75,8 @@
                                 <li class="nav-item"><a class="nav-link" href="./services.html">Resources</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./services.html">Solutions</a></li>
                                 <li class="nav-item"><a class="nav-link" href="./contact.html">Customers</a></li>
-                                <li class="nav-item w-100"><a class="nav-link" href="#"><button
-                                            class="button-fill w-100">Contact
-                                            us</button></a></li>
+                                <li class="nav-item w-100"><a class="nav-link button-fill w-100" href="#">Contact us</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -139,20 +140,19 @@
                             tempor incididunt ut labore
                             et dolore magna
                             aliqua. Ut enim ad minim veniam.</p>
-                        <form action="">
+                        <form>
                             <div class="mb-3">
                                 <input type="url" class="form-control form-control-lg" id="exampleFormControlInput1"
                                     placeholder="Input your domain">
                             </div>
                             <div class="mb-3">
-                                <input type="url" class="form-control form-control-lg" id="exampleFormControlInput1"
+                                <input type="url" class="form-control form-control-lg" id="exampleFormControlInput2"
                                     placeholder="Input your domain">
                             </div>
                             <button type="submit" class="button-fill w-100">Contact Us</button>
+                        </form>
                     </div>
-                    </form>
                 </div>
-            </div>
             </div>
         </section>
 
@@ -231,34 +231,41 @@
             </div>
         </section>
 
-        <section class="it-work">
+
+        <section>
             <div class="container">
-                <h2 class="section-heading-dark text-center pb-4">How does it work:</h2>
+                <div class="it-work">
+                    <h2 class="section-heading-dark text-center pb-4">How does it work:</h2>
+                </div>
             </div>
-        </section>
-        <section class="it-work2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-12 mx-auto">
-                        <div class="row">
-                            <div
-                                class=" col-md-6 col-lg-5 col-12 d-flex flex-column justify-content-center mb-4 mb-md-0">
-                                <div class="img">
-                                    <img src="./Assets/Images/does-it-works-img.png" alt="" class="img-fluid mb-4">
+            <div class="it-work2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-12 mx-auto">
+                            <div class="row">
+                                <div
+                                    class=" col-md-6 col-lg-5 col-12 d-flex flex-column justify-content-center mb-4 mb-md-0">
+                                    <div class="img">
+                                        <img src="./Assets/Images/does-it-works-img.png" alt="" class="img-fluid mb-4">
+                                    </div>
+                                    <p class="pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                        eiusmod
+                                        tempor incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                        ut
+                                        aliquip ex ea commodo consequat. Duis
+                                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat
+                                        nulla pariatur.</p>
                                 </div>
-                                <p class="pera">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna
-                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat. Duis
-                                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla pariatur.</p>
-                            </div>
-                            <div class="col-md-6 col-lg-7 col-12 d-flex align-items-center">
-                                <img src="./Assets/Images/it-works.svg" alt="" class="img-fluid  w-100">
+                                <div class="col-md-6 col-lg-7 col-12 d-flex align-items-center">
+                                    <img src="./Assets/Images/it-works.svg" alt="" class="img-fluid  w-100">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
@@ -336,11 +343,6 @@
 
                     </div>
                     <div class="col-md-4 col-12 d-none d-md-block">
-                        <div class="box">
-                            <img src="" alt="" class="img-fluid">
-                            <h4 class="box-heading"></h4>
-                            <p class="box-pera"></p>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -448,7 +450,7 @@
                     </div>
                     <div class="col-lg-6 offset-lg-1 col-md-6 col-12">
                         <h2 class="section-heading-light mb-4">Contact Us</h2>
-                        <form action="">
+                        <form>
                             <div class=" mb-3">
                                 <input type="text" class="form-control form-control-lg" placeholder="User name"
                                     aria-label="First name" required>
@@ -461,8 +463,7 @@
                                 <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="6"
                                     placeholder="Message "></textarea>
                             </div>
-                            <a href="" class=""><button type="submit"
-                                    class="btn button-outline w-100 mt-2">Send</button></a>
+                            <button type="submit" class="btn button-outline w-100 mt-2">Send</button>
                         </form>
                     </div>
                 </div>
@@ -639,12 +640,13 @@
 
                             </ul>
                             <div class="card-body text-center">
-                                <a href="./about.html">
-                                    <button class="btn button-fill w-100">Contact Us</button></a>
+                                <form action="#" style="display:inline" method="get">
+                                    <button class=" btn button-fill w-100">Contact Us</button>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12 mb-4  standard">
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 standard">
                         <div class="card px-4 pt-4 pb-5">
                             <div class="card-body">
                                 <div class="text-center p-3">
@@ -696,11 +698,11 @@
                                             fill="#fff" />
                                     </svg>
                                 </li>
-
                             </ul>
                             <div class="card-body text-center">
-                                <a href="./about.html">
-                                    <button class="btn button-fill w-100">Contact Us</button></a>
+                                <form action="#" style="display:inline" method="get">
+                                    <button class=" btn button-fill w-100">Contact Us</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -759,13 +761,14 @@
 
                             </ul>
                             <div class="card-body text-center">
-                                <a href="./about.html">
-                                    <button class="btn button-fill w-100">Contact Us</button></a>
+                                <form action="#" style="display:inline" method="get">
+                                    <button class=" btn button-fill w-100">Contact Us</button>
+                                </form>
                             </div>
                         </div>
                     </div>
-
                 </div>
+            </div>
         </section>
         <!-- pricing section end here  -->
     </main>

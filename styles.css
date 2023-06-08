@@ -210,7 +210,7 @@ p {
 .client-says2,
 .member-detail-section,
 .party-media,
-.steps,.result {
+.steps,.result,.it-work {
     margin: 120px 0px;
 }
 
@@ -716,7 +716,7 @@ header .dropdown-toggle::after {
     .client-says2,
     .member-detail-section,
     .party-media,
-    .steps,.result {
+    .steps,.result,.it-work {
         margin: 80px 0px;
     }
 
@@ -820,7 +820,7 @@ header .dropdown-toggle::after {
     .client-says2,
     .member-detail-section,
     .party-media,
-    .steps,.result {
+    .steps,.result,.it-work {
         margin: 60px 0px;
     }
 
@@ -917,7 +917,7 @@ header .dropdown-toggle::after {
     .client-says2,
     .member-detail-section,
     .party-media,
-    .steps,.result {
+    .steps,.result,.it-work {
         margin: 50px 0px;
     }
 
@@ -1688,7 +1688,7 @@ header .dropdown-toggle::after {
     box-shadow: none;
 }
 
-.contact-section form a .button-outline {
+.contact-section form .button-outline {
     background-color: transparent;
     border: 1px solid #d9d9d9;
     color: #FFFFFF;
@@ -1696,7 +1696,7 @@ header .dropdown-toggle::after {
     transition: 0.3s linear;
 }
 
-.contact-section form a .btn:hover {
+.contact-section form .button-outline:hover {
     background-color: #fff !important;
     border: 1px solid #fff !important;
     color: #6826FF !important;
