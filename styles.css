@@ -26,7 +26,6 @@
 
 html {
     overflow-x: hidden;
-    /* scroll-padding-top: 7rem; */
     scroll-behavior: smooth;
 }
 
@@ -2012,7 +2011,6 @@ svg circle:nth-child(2) {
     border: 1px solid rgba(23, 23, 24, 0.2);
     border-radius: 8px;
     display: flex;
-    padding: 20px auto;
     justify-content: center;
     align-items: center;
 }
