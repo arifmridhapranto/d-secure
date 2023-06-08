@@ -2331,7 +2331,7 @@ svg circle:nth-child(2) {
 .blog-sub-title {
     font-weight: 400;
     font-size: 24px;
-    line-height: 150%;
+    line-height: 120%;
     text-transform: capitalize;
     color: #171718;
 }
@@ -2556,7 +2556,7 @@ svg circle:nth-child(2) {
     .blog-sub-title {
         font-weight: 400;
         font-size: 20px;
-        line-height: 150%;
+        line-height: 120%;
         text-transform: capitalize;
         color: #171718;
     }
@@ -2571,7 +2571,7 @@ svg circle:nth-child(2) {
     .blog-sub-title {
         font-weight: 400;
         font-size: 18px;
-        line-height: 150%;
+        line-height: 120%;
         text-transform: capitalize;
         color: #171718;
     }
